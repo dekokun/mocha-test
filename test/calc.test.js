@@ -11,7 +11,7 @@ describe('calc', function() {
 
     it('error', function() {
       var result = calc.add(1, 3);
-      result.should.equal(3);
+      result.should.equal(4);
     });
   });
 });
